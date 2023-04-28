@@ -3,11 +3,11 @@
 Each genetic markerwill be assessed using a logistic regression model in the matched case-control study.
 
 
-$$logit(P(D)) = \alpha + \beta* genetic_marker + covariates +
+$$logit(P(D)) = \alpha + \beta* G_{marker} + covariates +
 \epsilon
 $$
 **Genetic markers**
-1) Genotyping data from PharmacoScan array. The additive model is primarily consideredfor SNPs;thegenetic effect is linearly increasedwith each addition of a minor allele.
+1) Genotyping data from PharmacoScan array. The additive model is primarily consideredfor SNPs; the genetic effect is linearly increasedwith each addition of a minor allele.
 
 2) Haplotype from exome sequencing. Haplotypes will be treated as a categorical variable. The effectsof rare haplotypeswill be compared with those of common haplotypes.
 

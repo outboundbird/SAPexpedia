@@ -1,11 +1,14 @@
-Package: temp
+Package: SAPexpedia
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Facilitate the Statistical Analysis Plan Writting
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Siying Huang
+Maintainer: Siying Huang <syhuanguoft@gmail.com>
+Description: This R addin inserts pre-defined description of statistical analysis of a specific technology or method.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
+Imports:
+  shiny (>= 0.13),
+  miniUI (>= 0.1.1),
+  rstudioapi (>= 0.5)

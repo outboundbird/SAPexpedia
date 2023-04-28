@@ -1,0 +1,9 @@
+Name: Insert section
+Description: Inserts paragraphs.
+Binding: insert_section
+Interactive: true
+
+Name: New Word doc
+Description: Create a new MS word rmarkdown document
+Binding: create_word
+Interactive: false

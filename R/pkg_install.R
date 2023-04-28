@@ -1,1 +1,0 @@
-install.packages(c("shiny", "miniUI"), type = "source")
