@@ -4,12 +4,10 @@ create_word <- function() {
   '---
 title: " "
 author: " "
-date:"`r Sys.Date()`"
+date:" `r Sys.Date()`"
 output:
   word_document:
-    reference_docx:"eSAP_Template_v2.1_BWE.docx"
+    reference_docx: "eSAP_Template_v2.1_BWE.docx"
 ---'
   rstudioapi::documentNew(header, type = "rmarkdown")
 }
-
-
