@@ -1,13 +1,14 @@
 # function create a word doc here
 create_word <- function() {
+
   header <-
-  '---
-title: " "
+  glue::glue('---
+title: "$"
 author: " "
-date:" `r Sys.Date()`"
+date:"{Sys.Date()}"
 output:
   word_document:
     reference_docx: "eSAP_Template_v2.1_BWE.docx"
----'
-  rstudioapi::documentNew(header, type = "rmarkdown")
+---')
+  rstudioapi::documentNew(header, type = "rmd")
 }

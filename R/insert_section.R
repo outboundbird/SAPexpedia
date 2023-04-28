@@ -1,12 +1,3 @@
-# ask what to insert
-# search in the md files
-# insert at the cursor position
-
-library(miniUI)
-library(rstudioapi)
-library(shiny)
-
-
 #' Insert the paragraph of SAP topic. One topic at a time.
 #' Rstudio Addin
 #'
