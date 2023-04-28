@@ -41,3 +41,4 @@ vignettes/*.pdf
 # proejct env
 *.code-workspace
 *.Rproj
+.vscode
