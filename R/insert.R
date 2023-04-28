@@ -43,7 +43,7 @@ insert <- function() {
         ## Your reactive logic goes here.
         shiny::observeEvent(input$topic, {
             refdoc <- paste0(input$topic, ".md")
-            content <- readLines(file.path("src", refdoc))
+            content <- readLines(file.path("template", refdoc))
             content_line <- paste(content, collapse = "\\n")
             doc <- rstudioapi::getActiveDocumentContext()
             cursor_pos <- rstudioapi::primary_selection(doc)
