@@ -8,3 +8,15 @@ The planed upgrades are:
 - talor to a specific biomarker(s)
 - talor to a specific compound name.
 - integrated reference with endnote citation format.
+
+## Installation
+
+Install directly from Github:
+
+```
+devtools::install_github("outboundbird/SAPexpedia")
+```
+
+## Issues and suggestions
+
+Please use the git issues to submit bugs and suggestions.
