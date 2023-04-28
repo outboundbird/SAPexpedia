@@ -1,9 +1,7 @@
 #' Insert the paragraph of SAP topic. One topic at a time.
 #' Rstudio Addin
-#'
 #' @return Paragraph of the SAP topic
 #' @export
-#' # ADD_EXAMPLES_HERE
 insert_section <- function() {
     ui <- miniUI::miniPage(
         miniUI::gadgetTitleBar("My Gadget"),
